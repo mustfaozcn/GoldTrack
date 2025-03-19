@@ -1,6 +1,8 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyD-BiuEjzErNqax1_9_Vfl_xNBcYcrja1c');
+// API anahtarını .env dosyasından alıyoruz
+const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
 
 const PROMPT_TEMPLATE = `
 You are a gold calculator assistant. Parse the following Turkish text and extract gold items.
