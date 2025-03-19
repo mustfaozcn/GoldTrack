@@ -30,7 +30,15 @@ Altın Hesaplayıcı, altın yatırımlarınızı kolayca takip etmenizi sağlay
    npm install
    ```
 
-4. Start the development server / Geliştirme sunucusunu başlatın:
+4. Create a `.env` file in the root directory and define the API key:
+   - Create a file named `.env` in the root of your project.
+   - Add the following line to the `.env` file:
+     ```plaintext
+     GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+     ```
+   - Replace `your_api_key_here` with your actual API key.
+
+5. Start the development server / Geliştirme sunucusunu başlatın:
    ```bash
    npm run dev
    ```
@@ -51,4 +59,4 @@ This project is licensed under the MIT License. / Bu proje MIT Lisansı altında
 
 ## Contact / İletişim
 
-For any inquiries, please contact [your-email@example.com]. / Herhangi bir soru için lütfen [your-email@example.com] ile iletişime geçin.
+For any inquiries, please contact [mustfaozcn.1994@gmail.com]. / Herhangi bir soru için lütfen [mustfaozcn.1994@gmail.com] ile iletişime geçin.
